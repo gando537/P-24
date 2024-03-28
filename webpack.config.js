@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development', // ou 'production'
-  entry: './index.html', // Entrée principale de votre application
+  entry: './public/index.html', // Entrée principale de votre application
   output: {
     path: path.resolve(__dirname, 'dist'), // Répertoire de sortie où les fichiers générés seront placés
     filename: 'bundle.js' // Nom du fichier de sortie généré par Webpack
