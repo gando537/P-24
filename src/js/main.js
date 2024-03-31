@@ -21,6 +21,7 @@ let createScene = function() {
     camera.attachControl(canvas, true);
     let light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0, 1, 0), scene);
     // let sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 2 }, scene);
+
     return scene;
 }
 
